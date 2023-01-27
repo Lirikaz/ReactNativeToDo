@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
-export default function App() {
+export default function Header() {
   return (
     <View style={styles.main}>
         <Text style={styles.text}>Список дел</Text>
@@ -18,7 +18,6 @@ const styles = StyleSheet.create({
   text: {
     fontWeight: 18,
     color: 'red',
-    fontStyle: 'bold',
     textAlign: 'center'
   }
 });
